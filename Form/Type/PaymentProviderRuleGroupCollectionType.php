@@ -22,7 +22,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class PaymentRuleGroupCollectionType extends AbstractType
+class PaymentProviderRuleGroupCollectionType extends AbstractType
 {
     public function getParent(): string
     {
@@ -34,7 +34,7 @@ class PaymentRuleGroupCollectionType extends AbstractType
         parent::configureOptions($resolver);
 
         $resolver->setDefaults([
-            'entry_type' => PaymentRuleGroupType::class,
+            'entry_type' => PaymentProviderRuleGroupType::class,
             'allow_add' => true,
             'allow_delete' => true,
             'by_reference' => true,

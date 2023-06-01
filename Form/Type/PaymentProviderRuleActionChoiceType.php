@@ -20,7 +20,7 @@ namespace CoreShop\Bundle\PaymentBundle\Form\Type;
 
 use CoreShop\Bundle\RuleBundle\Form\Type\RuleActionChoiceType;
 
-class PaymentRuleActionChoiceType extends RuleActionChoiceType
+class PaymentProviderRuleActionChoiceType extends RuleActionChoiceType
 {
     public function getBlockPrefix(): string
     {

@@ -18,12 +18,20 @@ declare(strict_types=1);
 
 namespace CoreShop\Bundle\PaymentBundle\Form\Type;
 
-use CoreShop\Bundle\RuleBundle\Form\Type\RuleConditionChoiceType;
+use CoreShop\Bundle\RuleBundle\Form\Type\RuleConditionCollectionType;
+use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class PaymentRuleConditionChoiceType extends RuleConditionChoiceType
+class PaymentProviderRuleConditionCollectionType extends RuleConditionCollectionType
 {
+    public function configureOptions(OptionsResolver $resolver): void
+    {
+        parent::configureOptions($resolver);
+
+        $resolver->setDefault('entry_type', PaymentProviderRuleConditionType::class);
+    }
+
     public function getBlockPrefix(): string
     {
-        return 'coreshop_payment_rule_action_condition_choice';
+        return 'coreshop_payment_rule_condition_collection';
     }
 }
