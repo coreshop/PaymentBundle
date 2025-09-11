@@ -15,9 +15,9 @@ import { serviceIds } from '@pimcore/studio-ui-bundle/app'
 import { type IconLibrary } from '@pimcore/studio-ui-bundle/modules/icon-library'
 
 // @ts-ignore
-import paymentProviderIcon from '../assets/payment-provider.svg?react'
+import paymentProviderIcon from '../../assets/payment-provider.svg?react'
 // @ts-ignore
-import paymentProviderRuleIcon from '../assets/payment-provider-rule.svg?react'
+import paymentProviderRuleIcon from '../../assets/payment-provider-rule.svg?react'
 
 export const PaymentBundleIconModule: AbstractModule = {
   onInit(): void {
