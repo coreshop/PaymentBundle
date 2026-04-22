@@ -22,7 +22,7 @@
     "globalName": "coreshoppayment",
     "pluginVersion": "0.13.1",
     "prefetchInterface": false,
-    "publicPath": "/bundles/coreshoppayment/studio/3b972260-f846-4386-a3bd-2da5c267dc78/"
+    "publicPath": "/bundles/coreshoppayment/studio/923db4d8-e2cb-457b-a3c0-c47d9b342ead/"
   },
   "shared": [
     {
