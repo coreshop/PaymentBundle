@@ -21,7 +21,7 @@
     },
     "globalName": "coreshoppayment",
     "pluginVersion": "2.5.1",
-    "publicPath": "/bundles/coreshoppayment/studio/32f75ae55aa2be0938a864de1cc8b996/"
+    "publicPath": "/bundles/coreshoppayment/studio/e505fdc5b7516af0fc55b6e8011b762d/"
   },
   "shared": [
     {
@@ -331,7 +331,7 @@
             "static/js/290.e73fc397.js",
             "static/js/861.4fbfb878.js",
             "static/js/712.c91d1c51.js",
-            "static/js/async/__federation_expose_default_export.d99600ca.js"
+            "static/js/async/__federation_expose_default_export.4ee0b0df.js"
           ],
           "async": [
             "static/js/async/254.c5cd1f6e.js",
